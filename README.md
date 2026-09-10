@@ -35,16 +35,6 @@ Markdownを採用した理由のひとつでもあるmermaidも、
 手探りながら、とりあえずはこのしくみをつかって、
 筆者のもつ技術情報の整理と発信を試みてみたいと思います。
 
-### 参考にした文献
-
-- [GitHub Pagesで、Markdownのメモをブログのように公開する](https://qiita.com/c3drive/items/f9b4d9497c588049d65c)
-- [Markdownで書かれたページをGitHub Pagesで公開する](https://yoshikyoto.github.io/text/git/gh_pages_md.html)
-- [What is GitHub Pages?](https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages)
-- [Jekyll Slate theme](https://github.com/pages-themes/slate)
-- [GitHub PagesでMermaid図をレンダリング可能にする #35](https://github.com/lurest-inc/github-projects-ops-kit/issues/35)
-- [GitHub Pages（Jekyll）でMermaid図を表示する方法](https://qiita.com/ctrl_bug/items/0198a4feb71dd8677f67)
-
-
 ## コンテンツ
 
 - [実験屋の逆引き器械工作辞典](docs/crafting_lookup.md)
@@ -59,4 +49,12 @@ Markdownを採用した理由のひとつでもあるmermaidも、
 読者は自由に上記コンテンツの内容を複製したり、
 改変して再利用したりすることができます。
 
+## 参考にした文献
+
+- [GitHub Pagesで、Markdownのメモをブログのように公開する](https://qiita.com/c3drive/items/f9b4d9497c588049d65c)
+- [Markdownで書かれたページをGitHub Pagesで公開する](https://yoshikyoto.github.io/text/git/gh_pages_md.html)
+- [What is GitHub Pages?](https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages)
+- [Jekyll Slate theme](https://github.com/pages-themes/slate)
+- [GitHub PagesでMermaid図をレンダリング可能にする #35](https://github.com/lurest-inc/github-projects-ops-kit/issues/35)
+- [GitHub Pages（Jekyll）でMermaid図を表示する方法](https://qiita.com/ctrl_bug/items/0198a4feb71dd8677f67)
 
