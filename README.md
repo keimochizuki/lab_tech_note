@@ -1,8 +1,3 @@
----
-title: 実験屋の研究室技術ノート
-description: ラボ技術の属人化解消の取り組み
----
-
 このリポジトリは、
 所属研究室において筆者（[望月 圭](https://researchmap.jp/keimochizuki)）
 が担っている技術事項を、
