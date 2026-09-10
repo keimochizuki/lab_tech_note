@@ -312,7 +312,7 @@ No--"錆・摩耗"-->Tough["ローバル\n（常温亜鉛めっき塗料）"];
 
 ### 著者
 
-- 望月 圭（[researchmap &#129125;](https://researchmap.jp/keimochizuki)）
+- 望月 圭（[researchmap](https://researchmap.jp/keimochizuki)）
 
 ### コピーライト
 
