@@ -43,5 +43,5 @@ Markdownを採用した理由のひとつでもあるmermaidも、
 
 ## コンテンツ
 
-- [TEST](docs/test.md)
+- [実験屋の逆引き器械工作辞典](docs/crafting_lookup.md)
 
