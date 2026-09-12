@@ -46,7 +46,7 @@ Markdownを採用した理由のひとつでもあるmermaidも、
 
 - [実験屋の逆引き器械工作辞典](docs/crafting_lookup.md)
 
-## コピーライト
+## 著作権上の扱い
 
 本ドキュメントの内容は、
 クリエイティブ・コモンズ・ライセンス 表示-非営利-継承 4.0 国際
@@ -64,4 +64,8 @@ Markdownを採用した理由のひとつでもあるmermaidも、
 - [Jekyll Cayman theme](https://github.com/pages-themes/cayman)
 - [GitHub PagesでMermaid図をレンダリング可能にする #35](https://github.com/lurest-inc/github-projects-ops-kit/issues/35)
 - [GitHub Pages（Jekyll）でMermaid図を表示する方法](https://qiita.com/ctrl_bug/items/0198a4feb71dd8677f67)
+
+## 改訂履歴
+
+- 2026.09.10（v.1.0.0）リポジトリ作成・GitHub Pagesにて公開
 
