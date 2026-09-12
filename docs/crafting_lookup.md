@@ -38,8 +38,8 @@ Thick--"大きめ"-->T2["ホルソー"];
 ```mermaid
 flowchart LR;
 Start["相手材は？"]--"木材"-->Wood["鬼目ナット"];
-Start--"樹脂"-->Plastic["インサートナット\nヘリサート＊"];
-Plastic--"代替案"-->PlanB["イリサート\nエンザート"];
+Start--"樹脂"-->Plastic["タップ\nインサートナット\nヘリサート＊"];
+Plastic--"代替案"-->PlanB["タングレス\nイリサート\nエンザート"];
 Start--"金属"-->Metal["厚みは？"];
 Metal--"薄板"-->Board["ブラインドナット\n板付ナット\n溶接ナット＊"];
 Metal--"厚材"-->Thick["タップ"];
@@ -296,14 +296,18 @@ Start--"湿潤環境機械"-->Marine["KURE 6-66"];
 
 ```mermaid
 flowchart LR;
-Start["ステンレス？"]--"はい"-->Yes["あきらめる"];
-Yes--"代替案"-->PlanB["ラインテープ\nつや消しテープ影武者"];
-Start--"いいえ"-->No["重視性能は？"];
-No--"発色"-->Color["アクリル塗料\nシリコン塗料"];
-No--"強度"-->Thickness["ウレタン塗料"];
-No--"熱"-->HeatResist["耐熱塗料"];
-No--"錆"-->StainResist["防錆塗料"];
-No--"錆・摩耗"-->Tough["ローバル\n（常温亜鉛めっき塗料）"];
+Start["相手材は？"]--"ステンレス"-->Stainless["あきらめる"];
+Stainless--"代替案"-->PlanB["ラインテープ\nつや消しテープ影武者"];
+Start--"木材"-->Wood["目的は？"];
+Wood--"防水"-->Varnish["ウレタンニス"];
+Wood--"木の質感"-->Oilstain["ワトコオイル\nクルミ油"];
+Wood--"屋外防カビ"-->Xyladecor["キシラデコール"];
+Start--"金属"-->Metal["目的は？"];
+Metal--"発色"-->Color["アクリル塗料\nシリコン塗料"];
+Metal--"塗膜強度"-->Thickness["ウレタン塗料"];
+Metal--"耐熱"-->HeatResist["耐熱塗料"];
+Metal--"防錆"-->StainResist["防錆塗料"];
+Metal--"防錆・耐摩耗"-->Tough["ローバル\nジンクスプレー\n（常温亜鉛めっき塗料）"];
 ```
 
 
