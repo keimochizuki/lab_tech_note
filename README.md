@@ -45,6 +45,7 @@ Markdownを採用した理由のひとつでもあるmermaidも、
 ## コンテンツ
 
 - [実験屋の逆引き器械工作辞典](docs/crafting_lookup.md)
+- [ヘリサートと、Eサートと、エンザートと](docs/helical_insert.md)
 
 ## 著作権上の扱い
 
