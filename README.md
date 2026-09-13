@@ -46,6 +46,7 @@ Markdownを採用した理由のひとつでもあるmermaidも、
 
 - [実験屋の逆引き器械工作辞典](docs/crafting_lookup.md)
 - [ヘリサートと、Eサートと、エンザートと](docs/helical_insert.md)
+- [実験屋の自作PCパーツ選定](docs/building_pc.md)
 
 ## 著作権上の扱い
 
@@ -70,4 +71,5 @@ Markdownを採用した理由のひとつでもあるmermaidも、
 
 - 2026.09.10（v.1.0.0）リポジトリ作成・GitHub Pagesにて公開
 - 2026.09.12（v.1.1.0）[ヘリサートと、Eサートと、エンザートと](docs/helical_insert.md)を追加
+- 2026.09.13（v.1.2.0）[実験屋の自作PCパーツ選定](docs/building_pc.md)を追加
 
