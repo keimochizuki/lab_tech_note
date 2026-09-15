@@ -125,23 +125,22 @@ Data-->TDP;
 わたしがサーバ機を組んだときには、
 Intel N100を積んだDC動作のマザボが出回っていたため、
 それを使用してみました。
-つまりこのときは、マザーボードが最初に確定していて、
-それを起点にパーツを選びました。
+つまりこのときは、マザーボードと、
+高速LANポートをつけることが最初に確定していました。
 
 ```mermaid
 flowchart TD;
 Start["サーバ機を組みたい"]--"マザーボード"-->Motherboard["ASRock N100DC-ITX"];
+Start--"PCI"-->PCI["10Gbps LAN"];
+Start--"データ領域"-->Data["SATA HDD &times; 2"];
+Data--"システム領域"-->System["M.2"];
 Motherboard--"電源"-->Power["19V ACアダプタ"];
-Power--"ケース"-->Chassis["小型"];
-Motherboard--"CPUクーラ"-->CPUcooler["付属ヒートシンク"];
-CPUcooler--"ケースファン"-->Casefan["付けれるだけ"];
+Power--"ケース"-->Chassis["小型<br>（内部電源不要）"];
 Motherboard--"CPU"-->CPU["オンボードN100"];
 Motherboard--"メモリ"-->Memory["DDR4 16G上限"];
 CPU--"グラフィックボード"-->Graphicboard["なし"];
-Graphicboard-->Others["残りのパーツを適当に"];
-Others--"システム領域"-->System["M.2"];
-Others--"データ領域"-->Data["SATA HDD &times; 2"];
-Others--"PCI"-->PCI["10Gbps LANカード"];
+CPU--"CPUクーラ"-->CPUcooler["付属ヒートシンク"];
+CPUcooler--"ケースファン"-->Casefan["なるべく多く"];
 ```
 
 ### ラックマウントで組みたい
