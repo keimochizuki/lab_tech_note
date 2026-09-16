@@ -51,6 +51,7 @@ Markdownを採用した理由のひとつでもあるmermaidも、
 ## コンテンツ
 
 - [実験屋の逆引き器械工作辞典](docs/crafting_lookup.md)
+- [少年よ、インパクトを買え](docs/buy_impact.md)
 - [ヘリサートと、Eサートと、エンザートと](docs/helical_insert.md)
 - [実験屋の自作PCパーツ選定](docs/building_pc.md)
 
@@ -80,4 +81,5 @@ Markdownを採用した理由のひとつでもあるmermaidも、
 - 2026.09.12&emsp;[ヘリサートと、Eサートと、エンザートと](docs/helical_insert.md)を追加
 - 2026.09.13&emsp;[実験屋の自作PCパーツ選定](docs/building_pc.md)を追加
 - 2026.09.16&emsp;バージョン番号を廃止（改訂年月日での管理へ）
+- 2026.09.16&emsp;[少年よ、インパクトを買え](docs/buy_impact.md)を追加
 
