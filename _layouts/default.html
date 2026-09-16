@@ -47,14 +47,15 @@ document.addEventListener("DOMContentLoaded", () => {
 <header class="page-header" role="banner">
 <div class="left-align">{{ site.title }} &gt; {{ page.title }}</div>
 <div class="right-align">{{ site.jaffiliation }}&emsp;{{ site.jauthor }}</div>
+{{ site.url }}<br>
+{{ page.url }}<br>
 {% if page.initdate %}
-<div class="right-align">
-{{ page.initdate }} 公開
+<div class="right-align">{{ page.initdate }} 公開</div>
+{% endif %}
 {% if page.upddate %}
-（{{ site.jaffiliation }} 更新）
+<div class="right-align">{{ page.upddate }} 更新</div>
 {% endif %}
 </div>
-{% endif %}
 </header>
 
 <body>
