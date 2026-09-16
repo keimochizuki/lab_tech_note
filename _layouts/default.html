@@ -49,8 +49,9 @@ document.addEventListener("DOMContentLoaded", () => {
 <div class="left-align"><a href="{{ site.url }}/{{ site.github.repository_name }}{{ page.url }}">
 {% if page.url == "/" %}
 トップページ
-{$ else $}
+{% else %}
 {{ page.title }}
+{% endif %}
 </a></div>
 <div class="right-align">{{ site.jaffiliation }}&emsp;{{ site.jauthor }}</div>
 {% if page.initdate %}
