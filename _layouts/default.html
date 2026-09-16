@@ -17,7 +17,7 @@ img.cc {
   margin-bottom: -.2em;
 }
 header.page-header {
-  padding: 1ex 0;
+  padding: 1rem 2rem;
 }
 header.page-header div.left-align {
   text-align: left;
@@ -46,7 +46,15 @@ document.addEventListener("DOMContentLoaded", () => {
 
 <header class="page-header" role="banner">
 <div class="left-align">{{ site.title }} &gt; {{ page.title }}</div>
-<div class="right-align">{{ site.jauthor }}（{{ site.jaffiliation }}）</div>
+<div class="right-align">{{ site.jaffiliation }}&emsp;{{ site.jauthor }}</div>
+{% if page.initdate %}
+<div class="right-align">
+{{ page.initdate }} 公開
+{% if page.upddate %}
+（{{ site.jaffiliation }} 更新）
+{% endif %}
+</div>
+{% endif %}
 </header>
 
 <body>
