@@ -45,10 +45,14 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 <header class="page-header" role="banner">
-<div class="left-align">{{ site.title }} &gt; {{ page.title }}</div>
+<div class="left-align"><a href="{{ site.url }}/{{ site.github.repository_name }}/">{{ site.title }}</a> &gt; 
+<div class="left-align"><a href="{{ site.url }}/{{ site.github.repository_name }}{{ page.url }}">
+{% if page.url == "/" %}
+トップページ
+{$ else $}
+{{ page.title }}
+</a></div>
 <div class="right-align">{{ site.jaffiliation }}&emsp;{{ site.jauthor }}</div>
-{{ site.url }}<br>
-{{ page.url }}<br>
 {% if page.initdate %}
 <div class="right-align">{{ page.initdate }} 公開</div>
 {% endif %}
