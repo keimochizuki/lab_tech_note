@@ -25,6 +25,9 @@ header.page-header div.left-align {
 header.page-header div.right-align {
   text-align: right;
 }
+header.page-header a {
+  color: $header-heading-color;
+}
 </style>
 <script defer src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
 <script>
@@ -45,14 +48,16 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 <header class="page-header" role="banner">
-<div class="left-align"><a href="{{ site.url }}/{{ site.github.repository_name }}/">{{ site.title }}</a> &gt; 
-<div class="left-align"><a href="{{ site.url }}/{{ site.github.repository_name }}{{ page.url }}">
+<div class="left-align">
+<a href="{{ site.url }}/{{ site.github.repository_name }}/">{{ site.title }}</a> &gt; 
+<a href="{{ site.url }}/{{ site.github.repository_name }}{{ page.url }}">
 {% if page.url == "/" %}
 トップページ
 {% else %}
 {{ page.title }}
 {% endif %}
-</a></div>
+</a>
+</div>
 <div class="right-align">{{ site.jaffiliation }}&emsp;{{ site.jauthor }}</div>
 {% if page.initdate %}
 <div class="right-align">{{ page.initdate }} 公開</div>
