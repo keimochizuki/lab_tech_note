@@ -3,4 +3,6 @@ plugins:
 - jekyll-remote-theme
 title: 実験屋の研究室技術ノート
 description: ラボ技術の属人化解消の取り組み
+jauthor: 望月 圭
+jaffiliation: 岩手医科大学 医学部
 

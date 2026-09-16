@@ -16,6 +16,15 @@ img.cc {
   margin-left: .2em;
   margin-bottom: -.2em;
 }
+header.page-header {
+  padding: 1ex 0;
+}
+header.page-header div.left-align {
+  text-align: left;
+}
+header.page-header div.right-align {
+  text-align: right;
+}
 </style>
 <script defer src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
 <script>
@@ -36,8 +45,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 <header class="page-header" role="banner">
-{{ site.title }} &gt; {{ page.title }}<br>
-{{ site.github.owner_name }}
+<div class="left-align">{{ site.title }} &gt; {{ page.title }}</div>
+<div class="right-align">{{ site.jauthor }}（{{ site.jaffiliation }}）</div>
 </header>
 
 <body>
