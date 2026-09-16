@@ -28,12 +28,8 @@ header.page-header div.right-align {
 header.page-header div a {
   color: #ffffff;
 }
-main p {
-  text-align: justify;
-}
 main pre {
-  width: fit-content;
-  margin: auto;
+  text-align: center;
 }
 </style>
 <script defer src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
@@ -65,7 +61,7 @@ document.addEventListener("DOMContentLoaded", () => {
 {% endif %}
 </a>
 </div>
-<div class="right-align">{{ site.jaffiliation }}&emsp;{{ site.jauthor }}</div>
+<div class="right-align"><a href="https://researchmap.jp/keimochizuki/">{{ site.jaffiliation }}&emsp;{{ site.jauthor }}</a></div>
 {% if page.initdate %}
 <div class="right-align">{{ page.initdate }} 公開</div>
 {% endif %}
