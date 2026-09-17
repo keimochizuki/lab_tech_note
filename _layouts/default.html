@@ -10,7 +10,8 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
 <style type="text/css">
-img.cc {
+img.cc,
+img.githubowner {
   max-width: 1em;
   max-height: 1em;
   margin-left: .2em;
@@ -61,7 +62,7 @@ document.addEventListener("DOMContentLoaded", () => {
 {% endif %}
 </a>
 </div>
-<div class="right-align"><a href="https://researchmap.jp/keimochizuki/">{{ site.jaffiliation }}&emsp;{{ site.jauthor }}</a>{{ site.owner_gravatar_url }}</div>
+<div class="right-align"><a href="https://researchmap.jp/keimochizuki/">{{ site.jaffiliation }}&emsp;{{ site.jauthor }}&nbsp;<img src="{{ site.github.owner_gravatar_url }}" alt="" class="githubowner"></a></div>
 {% if page.initdate %}
 <div class="right-align">{{ page.initdate }} 公開</div>
 {% endif %}
