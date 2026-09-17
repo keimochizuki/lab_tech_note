@@ -6,13 +6,20 @@ upddate: 2026年9月16日
 # 実験屋の研究室技術ノート
 
 このリポジトリは、
-実験研究者である筆者（[望月 圭](https://researchmap.jp/keimochizuki)）
+実験研究者である筆者（[望月 圭](https://researchmap.jp/keimochizuki/)）
 が所属研究室において担っている技術事項を、
 記録・共有するための文書置き場です。
 主として筆者の同僚に対してのドキュメントですが、
 閲覧上の利便性と、
 ワンチャンどこかの誰かの役に立ったらいいなという期待を込めて、
 GitHub Pages上で公開しています。
+
+## コンテンツ
+
+- [実験屋の逆引き器械工作辞典](docs/crafting_lookup.md)
+- [少年よ、インパクトを買え](docs/buy_impact.md)
+- [ヘリサートと、Eサートと、エンザートと](docs/helical_insert.md)
+- [実験屋の自作PCパーツ選定](docs/building_pc.md)
 
 ## 作成の意図
 
@@ -47,13 +54,6 @@ Markdownを採用した理由のひとつでもあるmermaidも、
 読める文章をGitHub Pagesに置けるようになりました。
 手探りながら、とりあえずはこのしくみをつかって、
 筆者のもつ技術情報の整理と発信を試みてみたいと思います。
-
-## コンテンツ
-
-- [実験屋の逆引き器械工作辞典](docs/crafting_lookup.md)
-- [少年よ、インパクトを買え](docs/buy_impact.md)
-- [ヘリサートと、Eサートと、エンザートと](docs/helical_insert.md)
-- [実験屋の自作PCパーツ選定](docs/building_pc.md)
 
 ## 著作権上の扱い
 
