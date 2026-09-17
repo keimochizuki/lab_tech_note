@@ -21,6 +21,8 @@ GitHub Pages上で公開しています。
 - [ヘリサートと、Eサートと、エンザートと](docs/helical_insert.md)
 - [実験屋の自作PCパーツ選定](docs/building_pc.md)
 
+
+
 ## 作成の意図
 
 ここに示す内容の多くは従来筆者がカバーしてきましたが、
@@ -55,6 +57,8 @@ Markdownを採用した理由のひとつでもあるmermaidも、
 手探りながら、とりあえずはこのしくみをつかって、
 筆者のもつ技術情報の整理と発信を試みてみたいと思います。
 
+
+
 ## 著作権上の扱い
 
 本ドキュメントの内容は、
@@ -65,6 +69,8 @@ Markdownを採用した理由のひとつでもあるmermaidも、
 読者は自由に上記コンテンツの内容を複製したり、
 改変して再利用したりすることができます。
 
+
+
 ## 参考にした文献
 
 - [GitHub Pagesで、Markdownのメモをブログのように公開する](https://qiita.com/c3drive/items/f9b4d9497c588049d65c)
@@ -73,6 +79,8 @@ Markdownを採用した理由のひとつでもあるmermaidも、
 - [Jekyll Cayman theme](https://github.com/pages-themes/cayman)
 - [GitHub PagesでMermaid図をレンダリング可能にする #35](https://github.com/lurest-inc/github-projects-ops-kit/issues/35)
 - [GitHub Pages（Jekyll）でMermaid図を表示する方法](https://qiita.com/ctrl_bug/items/0198a4feb71dd8677f67)
+
+
 
 ## 改訂履歴
 
