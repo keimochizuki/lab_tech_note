@@ -20,6 +20,7 @@ GitHub Pages上で公開しています。
 - [少年よ、インパクトを買え](docs/buy_impact.md)
 - [ヘリサートと、Eサートと、エンザートと](docs/helical_insert.md)
 - [実験屋の自作PCパーツ選定](docs/building_pc.md)
+- [お客さまのなかにステンレスワイヤの断端の始末についてご存知のかたはいらっしゃいませんかぁー！？](docs/edge_of_the_suswire.md)
 
 
 
@@ -91,4 +92,5 @@ Markdownを採用した理由のひとつでもあるmermaidも、
 - 2026.09.16&emsp;_layoutsを利用してヘッダ・パンくずリスト等のページ体裁を改修
 - 2026.09.16&emsp;バージョン番号を廃止（改訂年月日での管理へ）
 - 2026.09.16&emsp;[少年よ、インパクトを買え](docs/buy_impact.md)を追加
+- 2026.09.18&emsp;[お客さまのなかにステンレスワイヤの断端の始末についてご存知のかたはいらっしゃいませんかぁー！？](docs/edge_of_the_suswire.md)を追加
 
