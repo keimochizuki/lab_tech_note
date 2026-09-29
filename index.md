@@ -1,6 +1,6 @@
 ---
 initdate: 2026年9月10日
-upddate: 2026年9月18日
+upddate: 2026年9月29日
 ---
 
 # 実験屋の研究室技術ノート
@@ -17,6 +17,7 @@ GitHub Pages上で公開しています。
 ## コンテンツ
 
 - [実験屋の逆引き器械工作辞典](docs/crafting_lookup.md)
+- [タッピングことはじめ](docs/tapping_threads.md)
 - [少年よ、インパクトを買え](docs/buy_impact.md)
 - [ヘリサートと、Eサートと、エンザートと](docs/helical_insert.md)
 - [実験屋の自作PCパーツ選定](docs/building_pc.md)
@@ -95,4 +96,5 @@ Markdownを採用した理由のひとつでもあるmermaidも、
 - 2026.09.16&emsp;バージョン番号を廃止（改訂年月日での管理へ）
 - 2026.09.16&emsp;[少年よ、インパクトを買え](docs/buy_impact.md)を追加
 - 2026.09.18&emsp;[お客さまのなかにステンレスワイヤの断端の始末についてご存知のかたはいらっしゃいませんかぁー！？](docs/edge_of_the_suswire.md)を追加
+- 2026.09.29&emsp;[タッピングことはじめ](docs/tapping_threads.md)を追加
 
