@@ -3,6 +3,7 @@ plugins:
   - jekyll-remote-theme
   - jekyll-sitemap
   - jemoji
+google_analytics: G-8MSWRF13LS
 markdown: kramdown
 kramdown:
   input: GFM

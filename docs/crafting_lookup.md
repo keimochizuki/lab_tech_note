@@ -54,7 +54,7 @@ Thick--"小さい"-->T1["鉄鋼ドリル"];
 Thick--"大きめ"-->T2["ホルソー"];
 ```
 
-### めねじを立てたい
+### めねじをたてたい
 
 ```mermaid
 flowchart LR;
@@ -68,7 +68,7 @@ Start--"石膏ボード"-->Plaster["ボードアンカー"];
 Start--"コンクリート"-->Concrete["グリップアンカー"];
 ```
 
-### おねじを立てたい
+### おねじをたてたい
 
 ```mermaid
 flowchart LR;
@@ -77,7 +77,7 @@ Start--"平面"-->Board["羽子板ボルト"];
 Start--"コンクリート"-->Concrete["オールアンカー"];
 ```
 
-### <ruby>管用<rp>（</rp><rt>くだよう</rt><rp>）</rp></ruby>ねじを立てたい
+### <ruby>管用<rp>（</rp><rt>くだよう</rt><rp>）</rp></ruby>ねじをたてたい
 
 ```mermaid
 flowchart LR;
