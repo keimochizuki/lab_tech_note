@@ -16,12 +16,18 @@ GitHub Pages上で公開しています。
 
 ## コンテンツ
 
+### 器械工作関連
+
 - [実験屋の逆引き器械工作辞典](docs/crafting_lookup.md)
 - [タッピングことはじめ](docs/tapping_threads.md)
-- [少年よ、インパクトを買え](docs/buy_impact.md)
 - [ヘリサートと、Eサートと、エンザートと](docs/helical_insert.md)
-- [実験屋の自作PCパーツ選定](docs/building_pc.md)
+- [タングレス所感](docs/thoughts_on_tongueless.md)
+- [少年よ、インパクトを買え](docs/buy_impact.md)
 - [お客さまのなかにステンレスワイヤの断端の始末についてご存知のかたはいらっしゃいませんかぁー！？](docs/edge_of_the_suswire.md)
+
+### ICT関連
+
+- [実験屋の自作PCパーツ選定](docs/building_pc.md)
 
 
 
@@ -97,4 +103,5 @@ Markdownを採用した理由のひとつでもあるmermaidも、
 - 2026.09.16&emsp;[少年よ、インパクトを買え](docs/buy_impact.md)を追加
 - 2026.09.18&emsp;[お客さまのなかにステンレスワイヤの断端の始末についてご存知のかたはいらっしゃいませんかぁー！？](docs/edge_of_the_suswire.md)を追加
 - 2026.09.29&emsp;[タッピングことはじめ](docs/tapping_threads.md)を追加
+- 2026.10.04&emsp;[タングレス所感](docs/thoughts_on_tongueless.md)を追加
 
