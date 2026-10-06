@@ -1,6 +1,6 @@
 ---
 initdate: 2026年9月10日
-upddate: 2026年10月4日
+upddate: 2026年10月6日
 ---
 
 # 実験屋の研究室技術ノート
@@ -28,6 +28,7 @@ GitHub Pages上で公開しています。
 ### ICT関連
 
 - [実験屋の自作PCパーツ選定](docs/building_pc.md)
+- [嗚呼すばらしい10GbE](docs/what_a_wonderful_10GbE.md)
 
 
 
@@ -104,4 +105,5 @@ Markdownを採用した理由のひとつでもあるmermaidも、
 - 2026.09.18&emsp;[お客さまのなかにステンレスワイヤの断端の始末についてご存知のかたはいらっしゃいませんかぁー！？](docs/edge_of_the_suswire.md)を追加
 - 2026.09.29&emsp;[タッピングことはじめ](docs/tapping_threads.md)を追加
 - 2026.10.04&emsp;[タングレス所感](docs/thoughts_on_tongueless.md)を追加
+- 2026.10.06&emsp;[嗚呼すばらしい10GbE](docs/what_a_wonderful_10GbE.md)を追加
 
