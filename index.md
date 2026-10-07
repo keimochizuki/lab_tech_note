@@ -30,6 +30,10 @@ GitHub Pages上で公開しています。
 - [実験屋の自作PCパーツ選定](docs/building_pc.md)
 - [嗚呼すばらしい10GbE](docs/what_a_wonderful_10GbE.md)
 
+### 教育関連
+
+- [トリガ機能付き打腱器の自作](docs/reflex_hammer_DIY.md)
+
 
 
 ## 作成の意図
@@ -106,4 +110,5 @@ Markdownを採用した理由のひとつでもあるmermaidも、
 - 2026.09.29&emsp;[タッピングことはじめ](docs/tapping_threads.md)を追加
 - 2026.10.04&emsp;[タングレス所感](docs/thoughts_on_tongueless.md)を追加
 - 2026.10.06&emsp;[嗚呼すばらしい10GbE](docs/what_a_wonderful_10GbE.md)を追加
+- 2026.10.07&emsp;[トリガ機能付き打腱器の自作](docs/reflex_hammer_DIY.md)を追加
 
